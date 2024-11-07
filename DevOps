@@ -90,12 +90,7 @@
 \section{Projects}
 \resumeSubHeadingListStart
 
-    \resumeSubheading
-        {Raksha Alert System}{July 2024 -- Present}{}{}
-    \resumeItemListStart
-        \resumeItem{Led a team of 4 to develop emotion detection, hand gesture recognition, and person identification models using Python and OpenCV.}
-        \resumeItem{Integrated with a camera system to send real-time alerts via SMS, Telegram, and WhatsApp.}
-    \resumeItemListEnd
+    
 
     \resumeSubheading
         {Ollama WebUI Integration}{August 2024}{}{}
@@ -121,6 +116,20 @@
 \resumeSubHeadingListEnd
 
 \vspace{-15pt}
+% WORK EXPERIENCE
+\section{Work Experience}
+\resumeSubHeadingListStart
+\resumeSubheading
+{TalentConnects}{Sept 2024 – Present}{}{}
+\resumeItemListStart
+    \resumeItem{Deployed a full-stack MERN application on AWS, using the AWS Savings Plan for cost efficiency.}
+    \resumeItem{Utilized MongoDB for the database and Docker for containerization.}
+    \resumeItem{Implemented an Ubuntu server with a load balancer, private VPC, and Route 53 for DNS management.}
+\resumeItemListEnd
+
+
+\resumeSubHeadingListEnd
+
 
 % TECHNICAL SKILLS
 \section{Technical Skills}
@@ -147,46 +156,44 @@
     \item Adaptability and quick learning
 \end{itemize}
 
-
-
 % INTERNSHIPS
 \section{Internships}
 \resumeSubHeadingListStart
 \resumeSubheading
-{Arth The School Of Technologies}{Sep 2022 -- Oct 2023}  {\textit{12-month Internship}}{Jaipur}
+{Linux World}{Feb 2023 -- Mar 2023}  {\textit{45-day Internship}}{}
 \resumeItemListStart
     \resumeItem{Developed and implemented projects for Docker, AWS, and Linux platforms.}
     \resumeItem{Designed and maintained Docker images and containers for development and production environments.}
     \resumeItem{Conducted training sessions on cloud computing and containerization.}
     \resumeSubItem{\href{https://drive.google.com/file/d/1wjX8wlgrshj1XUPcrGTR9Ud1zr3UYwmj/view?usp=sharing}{\textcolor{blue}{\textbf{Certificate Link}}}}
 \resumeItemListEnd
+
 \resumeSubheading
-{IBM India Pvt. Ltd}{July 2023 -- Present}
-{\textit{AI/ML Intern}}{Remote}
+{IBM India Pvt. Ltd}{May 2024 -- Oct 2024} {\textit{AI/ML Intern}}{}
 \resumeItemListStart
-    \resumeItem{Contributed to developing and deploying machine learning models for various applications.}
-    \resumeItem{Worked with cross-functional teams to design and implement AI solutions.}
-    \resumeItem{Utilized cloud platforms for model training and deployment.}
+    \resumeItem{Developed real-time emotion detection, chatbot, and face recognition models using Python, OpenCV, and ML.}
+    \resumeItem{Integrated with camera systems for automated alerts via SMS, Telegram, Chatbot, and WhatsApp.}
 \resumeItemListEnd
 \resumeSubHeadingListEnd
+
+
 
 \section{Education}
 \resumeSubHeadingListStart
 
     \resumeSubheading
-        {Millennium Group of Institutions}{z}
-        {Bachelor of Technology (B.Tech) - Computer Science and Engineering (CSE) - Lateral Entry}{Bhopal, MP}
+        {Millennium Group of Institutions}{2023 -- 2026}
+        {Bachelor of Technology (B.Tech) - Computer Science and Engineering (CSE)}{}
     
     \resumeSubheading
         {NSTI-Bhubaneswar}{Sep 2022 -- Aug 2023}
-        {Advanced Diploma in IT}{Bhubaneswar, Odisha}
+        {Advanced Diploma in IT}{}
     
     \resumeSubheading
         {Govt Polytechnic}{Jul 2020 -- Aug 2022}
-        {Diploma in Engineering}{Ranchi, Jharkhand}
+        {Diploma in Engineering}{}
 
 \resumeSubHeadingListEnd
-
 
 % INTEREST / EXTRACURRICULAR
 \section{Interest / Extracurricular}
