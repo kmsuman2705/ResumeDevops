@@ -1,0 +1,197 @@
+\documentclass[letterpaper,10pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-0.8in}
+\addtolength{\textheight}{1.6in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generated PDF is machine-readable/ATS-parsable
+\pdfgentounicode=1
+
+% Custom commands
+\newcommand{\resumeItem}[1]{\item\small{{#1 \vspace{-2pt}}}}
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \ifx\empty#3\empty\else\textit{\small#3} \\ \fi
+      \textit{\small #4} \\
+    \end{tabular*}\vspace{-20pt}
+}
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-20pt}
+}
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-20pt}
+}
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-1pt}}
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=0.1in]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-7pt}}
+
+% RESUME STARTS HERE
+\begin{document}
+
+% HEADING
+\begin{center}
+    {\Huge \scshape Suman Kumar Mishra} \\ \vspace{1pt}
+    Bhubaneswar, Odisha, 751010 \\ \vspace{1pt}
+    \small \raisebox{-0.1\height}{\faPhone\ +91 9308208779} ~ \href{mailto:kmsuman27@gmail.com}{\raisebox{-0.2\height}{\textcolor{blue}{\faEnvelope\ \underline{kmsuman27@gmail.com}}}} ~ 
+    \href{https://linkedin.com/in/suman-kumar-mishra-cloud}{\raisebox{-0.2\height}{\textcolor{blue}{\faLinkedin\ \underline{suman-kumar-mishra-cloud}}}} ~
+    \href{https://github.com/kmsuman2705}{\raisebox{-0.2\height}{\textcolor{blue}{\faGithub\ \underline{kmsuman2705}}}}
+    \vspace{-10pt}
+\end{center}
+
+\section{Projects}
+\resumeSubHeadingListStart
+
+    \resumeSubheading
+        {Raksha Alert System}{July 2024 -- Present}{}{}
+    \resumeItemListStart
+        \resumeItem{Led a team of 4 to develop emotion detection, hand gesture recognition, and person identification models using Python and OpenCV.}
+        \resumeItem{Integrated with a camera system to send real-time alerts via SMS, Telegram, and WhatsApp.}
+    \resumeItemListEnd
+
+    \resumeSubheading
+        {Ollama WebUI Integration}{August 2024}{}{}
+    \resumeItemListStart
+        \resumeItem{Developed and deployed a WebUI for model management using Ollama and LLaMA.}
+        \resumeItem{Streamlined deployment with Docker, CI/CD pipelines, and ensured seamless scaling for inference and training.}
+    \resumeItemListEnd
+
+    \resumeSubheading
+        {Website Chatbot Integration}{June -- July 2024}{}{}
+    \resumeItemListStart
+        \resumeItem{Built an AI-driven chatbot integrated with a website using OpenAI's GPT.}
+        \resumeItem{Implemented web scraping and Flask API for real-time, context-aware interactions, enhancing user engagement.}
+    \resumeItemListEnd
+
+    \resumeSubheading
+        {Cloud-based DevOps Project}{May 2024}{}{}
+    \resumeItemListStart
+        \resumeItem{Designed CI/CD pipelines with Jenkins and GitHub Actions for Dockerized apps on AWS and Azure.}
+        \resumeItem{Optimized cloud infrastructure with Terraform and managed Kubernetes deployments for scalable microservices.}
+    \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+\vspace{-15pt}
+
+% TECHNICAL SKILLS
+\section{Technical Skills}
+\begin{itemize}[leftmargin=0.10in, label={}]
+    \setlength\itemsep{-0.10em} % Reduce space between items
+    \item \textbf{Cloud Computing}:
+        \begin{itemize}
+            \setlength\itemsep{-0.20em} % Reduce space between items
+            \item \textbf{AWS Cloud}: EC2, S3, VPC, Subnet, RDS, IAM, CloudWatch, SNS, SQS, Lambda, Serverless, Load Balancer
+            \item \textbf{Azure Cloud}: Virtual Machines (VMs), Azure Blob Storage, Azure Virtual Network (VNet), Azure Load Balancer
+        \end{itemize}
+    \item \textbf{Programming Languages}: Python
+    \item \textbf{Containerization}: Docker, Podman
+    \item \textbf{Version Control}: Git, GitHub
+    \item \textbf{Other Skills}: Linux, Ubuntu, Terraform, Kubernetes, Jenkins, MySQL, MongoDB, Machine Learning, Gen AI, Prompt Engineering, Lms, Ollama
+\end{itemize}
+
+% SOFT SKILLS
+\section{Soft Skills}
+\begin{itemize}[leftmargin=0.10in, label={\tiny$\bullet$}]
+    \setlength\itemsep{-0.4em} % Reduce space between items
+    \item Strong problem-solving skills
+    \item Excellent communication and collaboration abilities
+    \item Adaptability and quick learning
+\end{itemize}
+
+
+
+% INTERNSHIPS
+\section{Internships}
+\resumeSubHeadingListStart
+\resumeSubheading
+{Arth The School Of Technologies}{Sep 2022 -- Oct 2023}  {\textit{12-month Internship}}{Jaipur}
+\resumeItemListStart
+    \resumeItem{Developed and implemented projects for Docker, AWS, and Linux platforms.}
+    \resumeItem{Designed and maintained Docker images and containers for development and production environments.}
+    \resumeItem{Conducted training sessions on cloud computing and containerization.}
+    \resumeSubItem{\href{https://drive.google.com/file/d/1wjX8wlgrshj1XUPcrGTR9Ud1zr3UYwmj/view?usp=sharing}{\textcolor{blue}{\textbf{Certificate Link}}}}
+\resumeItemListEnd
+\resumeSubheading
+{IBM India Pvt. Ltd}{July 2023 -- Present}
+{\textit{AI/ML Intern}}{Remote}
+\resumeItemListStart
+    \resumeItem{Contributed to developing and deploying machine learning models for various applications.}
+    \resumeItem{Worked with cross-functional teams to design and implement AI solutions.}
+    \resumeItem{Utilized cloud platforms for model training and deployment.}
+\resumeItemListEnd
+\resumeSubHeadingListEnd
+
+\section{Education}
+\resumeSubHeadingListStart
+
+    \resumeSubheading
+        {Millennium Group of Institutions}{z}
+        {Bachelor of Technology (B.Tech) - Computer Science and Engineering (CSE) - Lateral Entry}{Bhopal, MP}
+    
+    \resumeSubheading
+        {NSTI-Bhubaneswar}{Sep 2022 -- Aug 2023}
+        {Advanced Diploma in IT}{Bhubaneswar, Odisha}
+    
+    \resumeSubheading
+        {Govt Polytechnic}{Jul 2020 -- Aug 2022}
+        {Diploma in Engineering}{Ranchi, Jharkhand}
+
+\resumeSubHeadingListEnd
+
+
+% INTEREST / EXTRACURRICULAR
+\section{Interest / Extracurricular}
+\resumeSubHeadingListStart
+\resumeSubheading{Technical Blog Writer:  \href{https://hashnode.com/@kmsuman27}{\textcolor{blue}{Hashnode}}}{Jul 2023 -- Present}{}{}
+\resumeSubHeadingListEnd
+
+\end{document}
