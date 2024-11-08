@@ -81,7 +81,7 @@
 \begin{center}
     {\Huge \scshape Suman Kumar Mishra} \\ \vspace{1pt}
     Bhubaneswar, Odisha, 751010 \\ \vspace{1pt}
-    \small \raisebox{-0.1\height}{\faPhone\ +91 9308208779} ~ \href{mailto:kmsuman27@gmail.com}{\raisebox{-0.2\height}{\textcolor{blue}{\faEnvelope\ \underline{kmsuman27@gmail.com}}}} ~ 
+    \small \raisebox{-0.2\height}{\faPhone\ +91 9308208779} ~ \href{mailto:kmsuman27@gmail.com}{\raisebox{-0.2\height}{\textcolor{blue}{\faEnvelope\ \underline{kmsuman27@gmail.com}}}} ~ 
     \href{https://linkedin.com/in/suman-kumar-mishra-cloud}{\raisebox{-0.2\height}{\textcolor{blue}{\faLinkedin\ \underline{suman-kumar-mishra-cloud}}}} ~
     \href{https://github.com/kmsuman2705}{\raisebox{-0.2\height}{\textcolor{blue}{\faGithub\ \underline{kmsuman2705}}}}
     \vspace{-10pt}
@@ -90,27 +90,25 @@
 \section{Projects}
 \resumeSubHeadingListStart
 
-    
-
     \resumeSubheading
-        {Ollama WebUI Integration}{August 2024}{}{}
+        {Ollama WebUI Integration}{Aug 2024}{}{}
     \resumeItemListStart
-        \resumeItem{Developed and deployed a WebUI for model management using Ollama and LLaMA.}
-        \resumeItem{Streamlined deployment with Docker, CI/CD pipelines, and ensured seamless scaling for inference and training.}
+        \resumeItem{Created a WebUI for managing models using Ollama and LLaMA.}
+        \resumeItem{Deployed with Docker and automated using CI/CD pipelines for easier scaling and management.}
     \resumeItemListEnd
 
     \resumeSubheading
-        {Website Chatbot Integration}{June -- July 2024}{}{}
+        {Website Chatbot Integration}{Jun -- Jul 2024}{}{}
     \resumeItemListStart
-        \resumeItem{Built an AI-driven chatbot integrated with a website using OpenAI's GPT.}
-        \resumeItem{Implemented web scraping and Flask API for real-time, context-aware interactions, enhancing user engagement.}
+        \resumeItem{Built a chatbot for a website using OpenAI's GPT for real-time conversations.}
+        \resumeItem{Developed a Flask-based API and used web scraping to provide relevant responses.}
     \resumeItemListEnd
 
     \resumeSubheading
-        {Cloud-based DevOps Project}{May 2024}{}{}
+        {Cloud-based DevOps Automation}{May 2024}{}{}
     \resumeItemListStart
-        \resumeItem{Designed CI/CD pipelines with Jenkins and GitHub Actions for Dockerized apps on AWS and Azure.}
-        \resumeItem{Optimized cloud infrastructure with Terraform and managed Kubernetes deployments for scalable microservices.}
+        \resumeItem{Set up CI/CD pipelines using Jenkins and GitHub Actions for applications hosted on AWS and Azure.}
+        \resumeItem{Used Terraform to manage cloud resources and deployed apps using Kubernetes for better scalability.}
     \resumeItemListEnd
 
 \resumeSubHeadingListEnd
@@ -122,11 +120,10 @@
 \resumeSubheading
 {TalentConnects}{Sept 2024 – Present}{}{}
 \resumeItemListStart
-    \resumeItem{Deployed a full-stack MERN application on AWS, using the AWS Savings Plan for cost efficiency.}
-    \resumeItem{Utilized MongoDB for the database and Docker for containerization.}
-    \resumeItem{Implemented an Ubuntu server with a load balancer, private VPC, and Route 53 for DNS management.}
+    \resumeItem{Deployed a full-stack MERN application on AWS, utilizing AWS Savings Plan for cost savings.}
+    \resumeItem{Containerized the app with Docker and used MongoDB for the database.}
+    \resumeItem{Set up an Ubuntu server with load balancing, private VPC, and Route 53 for DNS management.}
 \resumeItemListEnd
-
 
 \resumeSubHeadingListEnd
 
@@ -138,22 +135,22 @@
     \item \textbf{Cloud Computing}:
         \begin{itemize}
             \setlength\itemsep{-0.20em} % Reduce space between items
-            \item \textbf{AWS Cloud}: EC2, S3, VPC, Subnet, RDS, IAM, CloudWatch, SNS, SQS, Lambda, Serverless, Load Balancer
-            \item \textbf{Azure Cloud}: Virtual Machines (VMs), Azure Blob Storage, Azure Virtual Network (VNet), Azure Load Balancer
+            \item \textbf{AWS}: EC2, S3, VPC, RDS, IAM, CloudWatch, SNS, Lambda, Load Balancer
+            \item \textbf{Azure}: VMs, Blob Storage, VNet, Load Balancer
         \end{itemize}
-    \item \textbf{Programming Languages}: Python
+    \item \textbf{Programming}: Python
     \item \textbf{Containerization}: Docker, Podman
     \item \textbf{Version Control}: Git, GitHub
-    \item \textbf{Other Skills}: Linux, Ubuntu, Terraform, Kubernetes, Jenkins, MySQL, MongoDB, Machine Learning, Gen AI, Prompt Engineering, Lms, Ollama
+    \item \textbf{Tools}: Linux, Ubuntu, Terraform, Kubernetes, Jenkins, MySQL, MongoDB, Machine Learning, Gen AI, Ollama
 \end{itemize}
 
 % SOFT SKILLS
 \section{Soft Skills}
 \begin{itemize}[leftmargin=0.10in, label={\tiny$\bullet$}]
     \setlength\itemsep{-0.4em} % Reduce space between items
-    \item Strong problem-solving skills
-    \item Excellent communication and collaboration abilities
-    \item Adaptability and quick learning
+    \item Strong problem-solving abilities
+    \item Excellent communication and teamwork skills
+    \item Quick adaptability and continuous learning
 \end{itemize}
 
 % INTERNSHIPS
@@ -162,20 +159,20 @@
 \resumeSubheading
 {Linux World}{Feb 2023 -- Mar 2023}  {\textit{45-day Internship}}{}
 \resumeItemListStart
-    \resumeItem{Developed and implemented projects for Docker, AWS, and Linux platforms.}
-    \resumeItem{Designed and maintained Docker images and containers for development and production environments.}
-    \resumeItem{Conducted training sessions on cloud computing and containerization.}
+    \resumeItem{Worked on Docker, AWS, and Linux-based projects, improving operational workflows.}
+    \resumeItem{Developed and optimized Docker containers for both development and production environments.}
+    \resumeItem{Conducted training sessions on cloud technologies and containerization for internal teams.}
     \resumeSubItem{\href{https://drive.google.com/file/d/1wjX8wlgrshj1XUPcrGTR9Ud1zr3UYwmj/view?usp=sharing}{\textcolor{blue}{\textbf{Certificate Link}}}}
 \resumeItemListEnd
 
 \resumeSubheading
 {IBM India Pvt. Ltd}{May 2024 -- Oct 2024} {\textit{AI/ML Intern}}{}
 \resumeItemListStart
-    \resumeItem{Developed real-time emotion detection, chatbot, and face recognition models using Python, OpenCV, and ML.}
-    \resumeItem{Integrated with camera systems for automated alerts via SMS, Telegram, Chatbot, and WhatsApp.}
+    \resumeItem{Developed emotion detection, chatbot, and face recognition models using deep learning.}
+    \resumeItem{Worked with large datasets and optimized ML models to improve accuracy and performance.}
 \resumeItemListEnd
-\resumeSubHeadingListEnd
 
+\resumeSubHeadingListEnd
 
 
 \section{Education}
@@ -202,3 +199,4 @@
 \resumeSubHeadingListEnd
 
 \end{document}
+
