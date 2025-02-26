@@ -51,8 +51,8 @@
     \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
       \textbf{#1} & \textbf{\small #2} \\
       \ifx\empty#3\empty\else\textit{\small#3} \\ \fi
-      \textit{\small #4} \\
-    \end{tabular*}\vspace{-20pt}
+      \ifx\empty#4\empty\else\textit{\small#4} \\ \fi
+    \end{tabular*}\vspace{-10pt}
 }
 \newcommand{\resumeSubSubheading}[2]{
     \item
@@ -80,7 +80,7 @@
 % HEADING
 \begin{center}
     {\Huge \scshape Suman Kumar Mishra} \\ \vspace{1pt}
-    Bhubaneswar, Odisha, 751010 \\ \vspace{1pt}
+    Kolkata, West Bengal, 700101 \\ \vspace{1pt}
     \small \raisebox{-0.2\height}{\faPhone\ +91 9308208779} ~ \href{mailto:kmsuman27@gmail.com}{\raisebox{-0.2\height}{\textcolor{blue}{\faEnvelope\ \underline{kmsuman27@gmail.com}}}} ~ 
     \href{https://linkedin.com/in/suman-kumar-mishra-cloud}{\raisebox{-0.2\height}{\textcolor{blue}{\faLinkedin\ \underline{suman-kumar-mishra-cloud}}}} ~
     \href{https://github.com/kmsuman2705}{\raisebox{-0.2\height}{\textcolor{blue}{\faGithub\ \underline{kmsuman2705}}}}
@@ -118,15 +118,20 @@
 \section{Work Experience}
 \resumeSubHeadingListStart
 \resumeSubheading
-{TalentConnects}{Sept 2024 – Present}{}{}
-\resumeItemListStart
-    \resumeItem{Deployed a full-stack MERN application on AWS, utilizing AWS Savings Plan for cost savings.}
-    \resumeItem{Containerized the app with Docker and used MongoDB for the database.}
-    \resumeItem{Set up an Ubuntu server with load balancing, private VPC, and Route 53 for DNS management.}
-\resumeItemListEnd
-
+    {TalentConnects}{Sept 2024 – Nov 2024}{}{} 
+    \resumeItemListStart
+        \resumeItem{Deployed a full-stack MERN application on AWS, utilizing AWS Savings Plan for cost savings.}
+        \resumeItem{Containerized the app with Docker and used MongoDB for the database.}
+        \resumeItem{Set up an Ubuntu server with load balancing, private VPC, and Route 53 for DNS management.}
+    \resumeItemListEnd
+\resumeSubheading
+    {Real IT Solutions}{Nov 2024 – Present}{}{}
+    \resumeItemListStart
+        \resumeItem{Managed daily server operations, ensuring timely server start-ups and smooth deployments.}
+        \resumeItem{Automated server deployment and maintenance processes using shell scripts.}
+        \resumeItem{Handled the infrastructure management, ensuring high availability and reliability.}
+    \resumeItemListEnd
 \resumeSubHeadingListEnd
-
 
 % TECHNICAL SKILLS
 \section{Technical Skills}
@@ -137,6 +142,7 @@
             \setlength\itemsep{-0.20em} % Reduce space between items
             \item \textbf{AWS}: EC2, S3, VPC, RDS, IAM, CloudWatch, SNS, Lambda, Load Balancer
             \item \textbf{Azure}: VMs, Blob Storage, VNet, Load Balancer
+            \item \textbf{GCP}: Google Compute Engine, App Engine, Cloud run, vpc , cloud sql, IAM, CloudWatch, gke,GCS, Load Balancer
         \end{itemize}
     \item \textbf{Programming}: Python
     \item \textbf{Containerization}: Docker, Podman
@@ -162,7 +168,7 @@
     \resumeItem{Worked on Docker, AWS, and Linux-based projects, improving operational workflows.}
     \resumeItem{Developed and optimized Docker containers for both development and production environments.}
     \resumeItem{Conducted training sessions on cloud technologies and containerization for internal teams.}
-    \resumeSubItem{\href{https://drive.google.com/file/d/1wjX8wlgrshj1XUPcrGTR9Ud1zr3UYwmj/view?usp=sharing}{\textcolor{blue}{\textbf{Certificate Link}}}}
+    \resumeItem{\href{https://drive.google.com/file/d/1wjX8wlgrshj1XUPcrGTR9Ud1zr3UYwmj/view?usp=sharing}{\textcolor{blue}{Certificate Link}}}
 \resumeItemListEnd
 
 \resumeSubheading
@@ -174,7 +180,7 @@
 
 \resumeSubHeadingListEnd
 
-
+% EDUCATION
 \section{Education}
 \resumeSubHeadingListStart
 
@@ -183,7 +189,7 @@
         {Bachelor of Technology (B.Tech) - Computer Science and Engineering (CSE)}{}
     
     \resumeSubheading
-        {NSTI-Bhubaneswar}{Sep 2022 -- Aug 2023}
+        {NSTI Bhubaneswar}{Sep 2022 -- Aug 2023}
         {Advanced Diploma in IT}{}
     
     \resumeSubheading
@@ -199,4 +205,3 @@
 \resumeSubHeadingListEnd
 
 \end{document}
-
