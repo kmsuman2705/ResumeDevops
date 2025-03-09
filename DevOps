@@ -118,18 +118,24 @@
 \section{Work Experience}
 \resumeSubHeadingListStart
 \resumeSubheading
-    {TalentConnects}{Sept 2024 – Nov 2024}{}{} 
+    {TalentConnects}{Sept 2024 – Jan 2025}{}{} 
     \resumeItemListStart
-        \resumeItem{Deployed a full-stack MERN application on AWS, utilizing AWS Savings Plan for cost savings.}
+       \resumeItem{Deployed a full-stack MERN application on AWS, utilizing AWS Savings Plan for cost savings, and managed the deployment pipeline using GitLab CI/CD.}
+\resumeItem{Orchestrated the application with Kubernetes for seamless scaling and management of microservices, ensuring high availability and fault tolerance.}
+
         \resumeItem{Containerized the app with Docker and used MongoDB for the database.}
         \resumeItem{Set up an Ubuntu server with load balancing, private VPC, and Route 53 for DNS management.}
     \resumeItemListEnd
 \resumeSubheading
-    {Real IT Solutions}{Nov 2024 – Present}{}{}
+    {The Tech Clouds }{Feb 2025 – Present}{}{}
     \resumeItemListStart
-        \resumeItem{Managed daily server operations, ensuring timely server start-ups and smooth deployments.}
-        \resumeItem{Automated server deployment and maintenance processes using shell scripts.}
-        \resumeItem{Handled the infrastructure management, ensuring high availability and reliability.}
+        \resumeItem{Managed and maintained LAMP server environments, ensuring seamless deployment and high system uptime.}
+\resumeItem{Automated server deployment, infrastructure management, and software updates using shell scripts, ensuring optimal performance and reliability.}
+\resumeItem{Handled code commits, version control, and integration pipelines with Git, ensuring smooth collaboration and efficient code deployment.}
+\resumeItem{Orchestrated containerized applications using Docker and managed Kubernetes clusters to ensure scalability and availability of services.}
+\resumeItem{Managed Jenkins pipelines for continuous integration and continuous delivery (CI/CD), automating the build, test, and deployment processes.}
+\resumeItem{Monitored infrastructure health and performance, ensuring system availability and proactive issue resolution for optimal operations.}
+
     \resumeItemListEnd
 \resumeSubHeadingListEnd
 
@@ -146,18 +152,18 @@
         \end{itemize}
     \item \textbf{Programming}: Python
     \item \textbf{Containerization}: Docker, Podman
-    \item \textbf{Version Control}: Git, GitHub
-    \item \textbf{Tools}: Linux, Ubuntu, Terraform, Kubernetes, Jenkins, MySQL, MongoDB, Machine Learning, Gen AI, Ollama
+    \item \textbf{Version Control}: Git, GitHub, Gitlab
+    \item \textbf{Tools}: Linux, Ubuntu, Terraform, Kubernetes, Jenkins, MySQL, MongoDB, Machine Learning, Gen AI, Ollama, Prometheus, Grafana, Ansible, Helm
 \end{itemize}
 
-% SOFT SKILLS
-\section{Soft Skills}
-\begin{itemize}[leftmargin=0.10in, label={\tiny$\bullet$}]
-    \setlength\itemsep{-0.4em} % Reduce space between items
-    \item Strong problem-solving abilities
-    \item Excellent communication and teamwork skills
-    \item Quick adaptability and continuous learning
-\end{itemize}
+% % SOFT SKILLS
+% \section{Soft Skills}
+% \begin{itemize}[leftmargin=0.10in, label={\tiny$\bullet$}]
+%     \setlength\itemsep{-0.4em} % Reduce space between items
+%     \item Strong problem-solving abilities
+%     \item Excellent communication and teamwork skills
+%     \item Quick adaptability and continuous learning
+% \end{itemize}
 
 % INTERNSHIPS
 \section{Internships}
@@ -172,7 +178,7 @@
 \resumeItemListEnd
 
 \resumeSubheading
-{IBM India Pvt. Ltd}{May 2024 -- Oct 2024} {\textit{AI/ML Intern}}{}
+{IBM skill build India Pvt. Ltd}{May 2024 -- Oct 2024} {\textit{AI/ML Intern}}{}
 \resumeItemListStart
     \resumeItem{Developed emotion detection, chatbot, and face recognition models using deep learning.}
     \resumeItem{Worked with large datasets and optimized ML models to improve accuracy and performance.}
